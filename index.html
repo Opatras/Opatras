@@ -1,41 +1,167 @@
-<!DOCTYPE html>
-<html lang="en-GB">
-    <head>
-	    <meta charset="urf-8" />
-	    <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Opatras</title>
-        <link rel="stylesheet" href="styles.css">
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
-    </head>
+<!-- I want to be able to write better code. That is part of the reason why I learn. There's so many ways to improve this, that's why I must trial, err, amend and improve. -->
 
-    <body class="bg">
-        <!-- <h1 class="title">About Opatras</h1> -->
-		<div class="grid sofia">
-		    <div class="center">
-		    <img src="opatras.png" alt="An image of Opatras" />
-            <p>Hi, I am Opatras.</p>
-		    <p>I am trying to learn to be creative.</p>
-			<p>Likewise, I'm being creative to learn.</p>
-			<p>This is my first baby step towards something I have been wanting to try out.</p>
-			<p>I will elaborate further eventually.</p>
-			</div>
-			<div class="card">
-			    <div class="multicol">
-			        <p>I am currently learning Unity in order to understand how to create real-time applications and design things to work how I would like them to. As a developer, I hope that eventually I will be knowledgable and experienced enough to be able to deliver software which will help myself and those who find benefit from that which I create.</p>
-			    	<p>There are other things which I hope to learn, however I will try to develop one step or stage at a time.</p>
-			    </div>
-				<div class="flex">
-				    <!-- <img src="https://www.citypng.com/public/uploads/preview/hd-unity-white-logo-png-11663347550mrs9q3sjsa.png" /> -->
-				    <!-- <img src="https://www.citypng.com/public/uploads/preview/hd-unity-white-logo-png-11663347550mrs9q3sjsa.png" /> -->
-				</div>
-				<div class="padding-top"></div>
-				<div class="padding-top"></div>
-				<div>
-				<p class="center">This is a developing piece of work that I would like to build upon.</p>
-				<p>The persona of Opatras is a separation from my alternate reality where I feel too shy to explore any potential which I have dormant within me.</p>
-				<div class="padding-top"></div>
-				<p class="center" style="text-align: right; padding-right:30px;">Ciao!</p>
-			</div>
-        </div>
-	</body>
+<!DOCTYPE html>
+<html lang="en-GB" class="page-bg-image">
+  <head>
+    <meta charset="urf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Opatras</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Sofia"
+    />
+    <link
+      href="https://fonts.cdnfonts.com/css/beyond-wonderland"
+      rel="stylesheet"
+    />
+
+    <style>
+      		@import url('https://fonts.cdnfonts.com/css/beyond-wonderland');
+
+      		html {
+      		  font-family: 'Beyond Wonderland', sans-serif;
+      		}
+      		  .navbar-underline {
+      			padding: 20px;
+      		  }
+
+      		  .navbar-flex {
+      		    display: flex;
+      			justify-content: flex-end;
+      		  }
+
+      		  @media screen and (max-width: 459px) {
+      		      .navbar-flex {
+      			      display: flex;
+      				  flex-direction: column;
+      				  justify-content: flex-end;
+      				  text-align: center;
+      		      }
+      		  }
+
+      		  .navbar-flex
+      		    li {
+      			  list-style-type: none;
+      			  margin: 0px 0.5em;
+      		  }
+
+      		  .left-half {
+      		    width: 50%;
+      		  }
+
+      		  .right-half {
+      		    right: 0px;
+      			width: 50%;
+      		  }
+
+      		  .flex-box {
+      		    display:flex;
+      			justify-content: space-evenly;
+      			border-bottom: 2px solid red;
+      			<!-- border: 2px solid red; -->
+      		  }
+
+      		  .flex-box-column {
+      		    display: flex;
+      			flex-direction: column;
+      			margin: 0px 1vw;
+      		  }
+
+      /* width */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+
+      /* Track */
+      ::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 5px grey;
+        border-radius: 55550px;
+      }
+
+      /* Handle */
+      ::-webkit-scrollbar-thumb {
+        background: black;
+        border-radius: 10px;
+      }
+
+      /* Handle on hover */
+      ::-webkit-scrollbar-thumb:hover {
+        background: black;
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav class="navbar-underline">
+      <ul class="navbar-flex">
+        <a href="#start"><li>About</li></a>
+        <li>Next Part</li>
+        <li>Nexter Part</li>
+      </ul>
+    </nav>
+    <!-- About Section -->
+    <section>
+      <h1>About Opatras</h1>
+	  <div style="background-color: black; border: 1px solid white; border-radius: 25px; margin: 0 10vw; margin-bottom: 5vh; padding: 50px;">
+      <p style="text-align: center;">
+        Hi.
+      </p>
+	  <p style="text-align: center;">
+        This is a website that I make 	developments on. I am the creator of this website, and my name is Opatras.
+      </p>
+	  </div>
+	  <div style="background-color: black; border: 1px solid white; border-radius: 25px; margin: 0 10vw; margin-bottom: 5vh; padding: 50px;">
+	      <p style="text-align: center;">
+        The motivation for this website is to create a sandbox website for myself to experiment and learn fundamental web technologies, specifically HTML, CSS, and JavaScript.
+      </p>
+	  </div>
+	  <div style="background-color: black; border: 1px solid white; border-radius: 25px; margin: 0 10vw; margin-bottom: 13vh; padding: 50px;">
+	      <p style="text-align: center;">
+        This is my best work so far, considering it's my first. Maybe it's also my worst if there's nothing I have made previously to compare it to. But that doesn't matter - if there's put in to learn and improve, this would be considered the first step then, and sometimes it's the first step that's the hardest. So, I respect that. I hope to do my best and, though there isn't anyone really to use the plural for what I'm about to say - let's do our best.
+      </p>
+	  </div>
+    </section>
+	
+	<div style="display: flex; justify-content: center;">
+	<div style="background-color: black; border: 1px solid white; border-radius: 25px; margin: 0 10vw; margin-bottom: 5vh; padding: 50px;">
+	    <p>
+		    If <br/> you <br/> under <br/> stand <br/> the <br/> beginning <br/> well . . . <br/><br/> the <br/> end <br/> will <br/> not <br/> trouble <br/> you.
+			<!-- Fail hard, fail early, fail often. -->
+		</p>
+	</div>
+		<img style="max-height: 705px;
+	            display: block;
+				max-width: 530px;
+				width: auto;
+				height: auto;
+				transform: rotateY(25deg);"
+	     src="Myst.jpg" alt="Creativity, what is that?" />
+		
+	</div>
+	
+		 
+	
+    <!-- <section class="flex-box"> -->
+    <!-- <div class="flex-box-column"> -->
+    <!-- <p>Learn French</p> -->
+    <!-- <p>This is a world that is designed to help with learning French.</p> -->
+    <!-- </div> -->
+
+    <!-- <div class="flex-box-column"> -->
+    <!-- <p>Learn Spanish</p> -->
+    <!-- <p>This is a world that is designed to help with learning Spanish.</p> -->
+    <!-- </div> -->
+
+    <!-- <div class="flex-box-column"> -->
+    <!-- <p>Learn Arabic</p> -->
+    <!-- <p>This is a world that is designed to help with learning Arabic.</p> -->
+    <!-- </div> -->
+    <!-- </section> -->
+
+    <!-- <p>Yes</p> -->
+
+    <!-- <div class="left-half">AAAA</div> -->
+    <!-- <div class="right-half"><p>aaa</p></div> -->
+  </body>
 </html>
