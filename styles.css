@@ -1,13 +1,30 @@
 * {
-    margin: 0px;
-	font-size: 24px;
-	overflow-x: hidden;
-	margin: 10px 10px;
+	margin: 0px;
+}
+
+h1 {
+	color: white;
+	font-weight: 500;
+	font-size: 3rem;
+	text-align: center;
+	text-decoration: underline;
+	text-decoration-style: dashed;
+	margin-bottom: 5vh;
+    
 }
 
 img {
 	border-radius: 200px;
 }
+
+footer {
+	margin: 0;
+}
+
+
+ul {
+    padding-left: 0px;	
+} 
 
 img,
 picture,
@@ -15,8 +32,9 @@ video {
 	max-width: 100%;
 }
 
-p {
+p, li {
 	color: white;
+	font-size: 2em;
     /* font-family: Georgia, 'Times New Roman', Times, serif; */
 }
 
@@ -68,4 +86,27 @@ p {
 .footer {
 	position: fixed;
 	bottom: 0;
+}
+
+.two-column {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.three-column {
+	display: grid;
+	grid-template-columns: 1fr 20px 1fr;
+}
+
+.vertical-line {
+	border-left: 2px solid black;
+}
+
+.page-bg-image {
+	background-image: url("./Journal-1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center center;
+
 }
